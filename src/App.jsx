@@ -7,6 +7,6 @@ function App() {
       <Cantada/>
     </div>
   )
-}
+} 
 
 export default App
