@@ -1,42 +1,39 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
+body{
+  background-image: url(https://img1.picmix.com/output/stamp/normal/3/9/1/2/12193_cff7f.gif);
+}
+.container{
+  background: #fff0f6;
   padding: 2rem;
+  border-radius: 20px;
+  width: 400px;
+  margin: 2rem auto;
   text-align: center;
+  font-family: sans-serif;
+  box-shadow: 0 4px 8px rgb(0,0,0,0.1);
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.titulo{
+  font-size: 1.5rem;
+  color: #d63384;
+  margin-bottom: 1rem;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+button{
+  background-color: #ff4da6;
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+p{
+  font-size: 1.2rem;
+  color: #495057;
+  margin-top: 1.5rem;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+input{
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid;
+  width: 80%;
+  margin-bottom: 1rem;
 }
